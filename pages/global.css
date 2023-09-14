@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-regular: Roboto;
+  --font-inter: Inter;
+  --font-inherit: inherit;
+  --body-regular1: "Helvetica Neue";
+
+  /* font sizes */
+  --h5-medium-size: 16px;
+  --body-regular-size: 14px;
+  --m3-body-small-size: 12px;
+  --font-size-26xl: 45px;
+  --font-size-4xs: 9px;
+  --font-size-5xl: 24px;
+  --font-size-29xl: 48px;
+  --font-size-xl: 20px;
+  --font-size-3xs: 10px;
+  --font-size-smi: 13px;
+  --font-size-mini: 15px;
+  --font-size-5xs: 8px;
+
+  /* Colors */
+  --conditional-pop-over: #fff;
+  --color-whitesmoke-100: #f9f9f9;
+  --theme-light: #f8f9fa;
+  --color-whitesmoke-200: #f8f8f8;
+  --color-whitesmoke-300: #f5f5f5;
+  --color-whitesmoke-400: #f4f4f4;
+  --color-whitesmoke-500: #eee;
+  --gray-black: #000;
+  --theme-primary: #0d6efd;
+  --m3-sys-light-primary1: #005bbf;
+  --color-gray-100: #797979;
+  --color-gray-200: #74777f;
+  --body-text-body-color: #212529;
+  --m3-sys-light-on-tertiary-container: #29132d;
+  --m3-sys-light-on-surface: #1b1b1f;
+  --m3-sys-light-on-secondary-container: #131b2c;
+  --m3-sys-light-on-primary-container: #001a40;
+  --components-navs-tabs-light-toggle-border: rgba(0, 0, 0, 0.1);
+  --color-gray-300: rgba(0, 0, 0, 0.55);
+  --hitbox: rgba(255, 255, 255, 0);
+  --color-gray-400: rgba(0, 0, 0, 0.4);
+  --color-gray-500: rgba(0, 0, 0, 0.3);
+  --m3-state-layers-light-on-surface-opacity-012: rgba(29, 27, 32, 0.12);
+  --character-primary-85: rgba(0, 0, 0, 0.85);
+  --gray-700: #495057;
+  --m3-sys-light-on-surface-variant: #44474f;
+  --m3-state-layers-light-on-surface-variant-opacity-012: rgba(
+    73,
+    69,
+    79,
+    0.12
+  );
+  --m3-sys-light-surface: #faf9fd;
+  --color-mistyrose: #ffe7e7;
+  --color-oldlace: #fffae7;
+  --color-honeydew: #eefff5;
+  --color-linen: #ffede7;
+  --color-lavender-100: #eceeff;
+  --color-lavender-200: #efecff;
+  --m3-sys-light-secondary-container: #dae2f9;
+  --m3-sys-light-primary-container: #d7e2ff;
+  --color-limegreen: #1dd000;
+  --color-gold: #ffcf23;
+  --m3-sys-light-primary: #6750a4;
+  --m3-sys-light-surface-container-high: #e9e7ec;
+  --m3-sys-light-surface-container-highest: #e3e2e6;
+  --m3-sys-light-tertiary-container: #fbd7fc;
+  --color-dodgerblue-100: #2a83ff;
+  --color-dodgerblue-200: #0085ff;
+  --color-blueviolet: rgba(151, 71, 255, 0);
+  --gray-400: #ced4da;
+  --gray-600: #6c757d;
+  --color-tomato: #ef4c41;
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-5xs: 8px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-11xs: 2px;
+  --gap-10xs: 3px;
+  --gap-3xs: 10px;
+  --gap-6xs: 7px;
+  --gap-12xs: 1px;
+  --gap-8xs: 5px;
+  --gap-6xl: 25px;
+  --gap-7xs: 6px;
+  --gap-8xs-4: 4.4px;
+  --gap-21xl: 40px;
+  --gap-xl: 20px;
+  --gap-sm: 14px;
+  --gap-9xs: 4px;
+  --gap-181xl: 200px;
+
+  /* Paddings */
+  --padding-13xl: 32px;
+  --padding-29xl: 48px;
+  --padding-3xs: 10px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-9xs: 4px;
+  --padding-5xs: 8px;
+  --padding-7xs: 6px;
+  --padding-8xs: 5px;
+  --padding-6xs: 7px;
+  --padding-xs: 12px;
+  --padding-4xs: 9px;
+  --padding-31xl: 50px;
+  --padding-lgi: 19px;
+  --padding-12xs: 1px;
+  --padding-sm: 14px;
+  --padding-141xl: 160px;
+  --padding-77xl: 96px;
+  --padding-xl: 20px;
+  --padding-lg: 18px;
+  --padding-14xl: 33px;
+  --padding-21xl: 40px;
+  --padding-53xl: 72px;
+  --padding-smi: 13px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-81xl: 100px;
+  --br-11xs: 2px;
+  --br-9xs: 4px;
+  --br-5xs: 8px;
+  --br-xl: 20px;
+  --br-3xs: 10px;
+
+  /* Effects */
+  --drop-shadow-0120805: 0px 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+  --dashbaord-main-section-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}

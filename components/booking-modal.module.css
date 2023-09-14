@@ -1,0 +1,93 @@
+.bookingDetails,
+.bookingIdLabel {
+  position: relative;
+}
+.bookingIdLabel {
+  font-weight: 600;
+}
+.frame,
+.label,
+.label1,
+.label2,
+.label4,
+.label5,
+.label6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.frame,
+.label1,
+.label2,
+.label4,
+.label5,
+.label6 {
+  top: 35px;
+}
+.frame,
+.label2,
+.label4,
+.label5,
+.label6 {
+  top: 70px;
+}
+.frame,
+.label4,
+.label5,
+.label6 {
+  top: 105px;
+}
+.label4,
+.label5,
+.label6 {
+  top: 140px;
+}
+.label5,
+.label6 {
+  top: 175px;
+}
+.label6 {
+  top: 210px;
+}
+.labelParent {
+  position: relative;
+  width: 234px;
+  height: 229px;
+}
+.bookingModalInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--h5-medium-size);
+}
+.button {
+  cursor: pointer;
+}
+.bookingModal {
+  border-radius: var(--br-8xs);
+  background-color: var(--conditional-pop-over);
+  box-shadow: var(--dashbaord-main-section-shadow);
+  border: 1px solid var(--color-whitesmoke-500);
+  box-sizing: border-box;
+  width: 800px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-29xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--gray-black);
+  font-family: var(--font-inter);
+}

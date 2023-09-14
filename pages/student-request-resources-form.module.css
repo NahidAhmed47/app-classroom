@@ -1,0 +1,543 @@
+.apclassroomLogoIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.apclassroom {
+  position: relative;
+  font-weight: 500;
+}
+.apclassroomLogo,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apclassroomLogo {
+  flex-direction: row;
+  gap: var(--gap-8xs-4);
+  cursor: pointer;
+}
+.logo {
+  align-self: stretch;
+  background-color: var(--conditional-pop-over);
+  height: 76px;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-14xl);
+  box-sizing: border-box;
+}
+.sideNavigationBarUserProfiChild {
+  position: relative;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.student {
+  position: relative;
+}
+.roleLabel {
+  border-radius: var(--br-xl);
+  background-color: var(--color-limegreen);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-4xs);
+  align-items: center;
+  justify-content: center;
+}
+.janesmithgmailcom {
+  position: relative;
+  font-size: var(--font-size-5xs);
+  color: var(--color-gray-500);
+}
+.jasonYuParent,
+.sideNavigationBarUserProfi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jasonYuParent {
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--gray-black);
+}
+.sideNavigationBarUserProfi {
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  width: 245.98px;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-7xs);
+}
+.dashboardIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+.dashboard,
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0.3;
+  cursor: pointer;
+}
+.menuItem {
+  text-decoration: none;
+  color: inherit;
+}
+.resourcesIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.dashboard5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.alignTop,
+.dashboard5,
+.dashboard8 {
+  justify-content: flex-start;
+}
+.dashboard8 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+  opacity: 0.3;
+  cursor: pointer;
+}
+.alignTop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.tablerlogout2Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.dashboard10 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0.7;
+  cursor: pointer;
+}
+.alignBottom {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-77xl);
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.centerMenuItems,
+.navItems {
+  flex: 1;
+  justify-content: center;
+}
+.navItems {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-6xl);
+}
+.centerMenuItems {
+  padding: var(--padding-31xl) 0 0;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--gray-black);
+}
+.centerMenuItems,
+.sideBar,
+.sideMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sideMenu {
+  flex: 1;
+  background-color: var(--conditional-pop-over);
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--conditional-pop-over);
+}
+.sideBar {
+  box-shadow: 4px 0 4px rgba(0, 0, 0, 0.25);
+  width: 240px;
+  justify-content: space-between;
+}
+.requestResources {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--gray-black);
+  text-align: left;
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-31xl);
+  align-items: center;
+  justify-content: center;
+}
+.textField {
+  flex: 1;
+}
+.textFieldParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.textField2,
+.textField3 {
+  border: 0;
+  background-color: transparent;
+}
+.textField2 {
+  align-self: stretch;
+}
+.textField3 {
+  flex: 1;
+}
+.textFieldGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.form,
+.textField5,
+.textFieldGroup {
+  align-self: stretch;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 490px;
+}
+.labelText {
+  position: relative;
+  font-size: var(--body-regular-size);
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-regular);
+  color: var(--conditional-pop-over);
+  text-align: center;
+}
+.button,
+.stateLayer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer {
+  align-self: stretch;
+  height: 40px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  box-sizing: border-box;
+}
+.button {
+  border-radius: var(--br-81xl);
+  background-color: var(--m3-sys-light-primary1);
+  overflow: hidden;
+  flex-direction: column;
+  cursor: pointer;
+}
+.labelText1 {
+  position: relative;
+  font-size: var(--body-regular-size);
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-regular);
+  color: var(--m3-sys-light-primary1);
+  text-align: center;
+}
+.button1 {
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--color-gray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttonParent,
+.searchClassForm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.searchClassForm {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--conditional-pop-over);
+  box-shadow: var(--dashbaord-main-section-shadow);
+  border: 1px solid var(--color-whitesmoke-500);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-29xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.requestIcon,
+.wifiIcon {
+  display: flex;
+  flex-direction: row;
+}
+.wifiIcon {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-lavender-200);
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+}
+.requestIcon {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.equipmentRequest,
+.jan12023 {
+  position: relative;
+  font-weight: 600;
+}
+.jan12023 {
+  font-size: var(--body-regular-size);
+  color: var(--color-gray-100);
+}
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--m3-body-small-size);
+  color: var(--color-gold);
+}
+.equipmentRequestForABlacParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.arrowRightIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+.arrowRightWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.announcement,
+.requestList {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.announcement {
+  border-radius: var(--br-8xs);
+  background-color: var(--conditional-pop-over);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.18);
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-8xs);
+  gap: var(--gap-3xs);
+}
+.requestList {
+  flex-direction: column;
+  cursor: pointer;
+}
+.socketIcon,
+.status2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.socketIcon {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-linen);
+  padding: var(--padding-8xs);
+}
+.status2 {
+  font-size: var(--m3-body-small-size);
+  color: var(--color-limegreen);
+}
+.reportedIssues,
+.requestList1 {
+  align-self: stretch;
+  align-items: center;
+}
+.requestList1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.reportedIssues {
+  overflow-y: auto;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  font-size: var(--h5-medium-size);
+}
+.mainPanel,
+.reportedIssues,
+.searchClassForm1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.searchClassForm1 {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--conditional-pop-over);
+  box-shadow: var(--dashbaord-main-section-shadow);
+  border: 1px solid var(--color-whitesmoke-500);
+  overflow: hidden;
+  padding: var(--padding-5xl) var(--padding-xl);
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.mainPanel {
+  position: absolute;
+  width: calc(100% - 400px);
+  top: 72px;
+  right: 360px;
+  left: 40px;
+  height: 952px;
+  padding: 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.resourcesIcon1 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.resourcesIconParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-29xl);
+}
+.viewReports {
+  position: relative;
+  font-size: var(--body-regular-size);
+  font-weight: 500;
+  color: var(--color-dodgerblue-200);
+  display: none;
+}
+.numberOfReportsParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.sellingProducts,
+.sidePanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sellingProducts {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--conditional-pop-over);
+  box-shadow: var(--dashbaord-main-section-shadow);
+  border: 1px solid var(--color-whitesmoke-500);
+  box-sizing: border-box;
+  height: 160px;
+  padding: var(--padding-lgi);
+  align-items: flex-start;
+}
+.sidePanel {
+  position: absolute;
+  top: 72px;
+  right: 40px;
+  width: 280px;
+  height: 952px;
+  align-items: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+}
+.content {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+}
+.studentRequestResourcesForm {
+  position: relative;
+  background-color: var(--color-whitesmoke-300);
+  width: 100%;
+  height: 1024px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--gray-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .sideBar {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sideBar {
+    display: none;
+  }
+  .form {
+    min-width: 0;
+  }
+}

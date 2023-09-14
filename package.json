@@ -1,0 +1,23 @@
+{
+  "name": "apclassroom_v3.4",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.2.1",
+    "@mui/material": "^5.13.4",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/x-date-pickers": "^6.7.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o build/",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}

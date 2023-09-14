@@ -1,0 +1,61 @@
+.closecircleIcon {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.content1,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.title {
+  line-height: 24px;
+  font-weight: 500;
+}
+.content1 {
+  font-size: var(--body-regular-size);
+  line-height: 22px;
+}
+.content,
+.right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.right {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.button {
+  cursor: pointer;
+}
+.modalrequestResourceerror {
+  border-radius: var(--br-11xs);
+  background-color: var(--conditional-pop-over);
+  box-shadow: var(--drop-shadow-0120805);
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-13xl) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--h5-medium-size);
+  color: var(--character-primary-85);
+  font-family: var(--body-regular);
+}

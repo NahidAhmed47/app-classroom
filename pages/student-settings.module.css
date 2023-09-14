@@ -1,0 +1,319 @@
+.apclassroomLogoIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.apclassroom {
+  position: relative;
+  font-weight: 500;
+}
+.apclassroomLogo,
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apclassroomLogo {
+  flex-direction: row;
+  gap: var(--gap-8xs-4);
+  cursor: pointer;
+}
+.logo {
+  align-self: stretch;
+  background-color: var(--conditional-pop-over);
+  height: 76px;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-14xl);
+  box-sizing: border-box;
+}
+.sideNavigationBarUserProfiChild {
+  position: relative;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.student {
+  position: relative;
+}
+.roleLabel {
+  border-radius: var(--br-xl);
+  background-color: var(--color-limegreen);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-4xs);
+  align-items: center;
+  justify-content: center;
+}
+.janesmithgmailcom {
+  position: relative;
+  font-size: var(--font-size-5xs);
+  color: var(--color-gray-500);
+}
+.jasonYuParent,
+.sideNavigationBarUserProfi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jasonYuParent {
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--gray-black);
+}
+.sideNavigationBarUserProfi {
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  width: 245.98px;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-7xs);
+}
+.dashboardIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+.dashboard,
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0.3;
+  cursor: pointer;
+}
+.menuItem {
+  text-decoration: none;
+  color: inherit;
+}
+.settingsIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.dashboard6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.alignTop,
+.dashboard6,
+.dashboard8 {
+  justify-content: flex-start;
+}
+.dashboard8 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+  opacity: 0.3;
+  cursor: pointer;
+}
+.alignTop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.tablerlogout2Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.dashboard10 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0.7;
+  cursor: pointer;
+}
+.alignBottom {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-77xl);
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.navItems {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xl);
+}
+.centerMenuItems,
+.navItems,
+.sideMenu {
+  flex: 1;
+  flex-direction: column;
+}
+.centerMenuItems {
+  align-self: stretch;
+  display: flex;
+  padding: var(--padding-31xl) 0 0;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--gray-black);
+}
+.sideMenu {
+  background-color: var(--conditional-pop-over);
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--conditional-pop-over);
+}
+.header,
+.sideBar,
+.sideMenu {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.sideBar {
+  box-shadow: 4px 0 4px rgba(0, 0, 0, 0.25);
+  width: 240px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+  flex-direction: row;
+  padding: 0 var(--padding-31xl);
+  justify-content: center;
+}
+.labelText {
+  position: relative;
+  line-height: 16px;
+}
+.frameItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseParent,
+.labelTextParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ellipseParent {
+  align-items: center;
+  gap: var(--gap-9xs);
+}
+.labelTextParent {
+  align-items: flex-start;
+}
+.textField {
+  border: 0;
+  background-color: transparent;
+}
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.button {
+  cursor: pointer;
+}
+.personalSettings1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--h5-medium-size);
+  color: var(--m3-sys-light-on-surface-variant);
+  font-family: var(--body-regular);
+}
+.searchClassForm {
+  border-radius: var(--br-8xs);
+  background-color: var(--conditional-pop-over);
+  box-shadow: var(--dashbaord-main-section-shadow);
+  border: 1px solid var(--color-whitesmoke-500);
+  overflow: hidden;
+  padding: var(--padding-5xl) var(--padding-31xl);
+  gap: var(--gap-13xl);
+}
+.personalSettings2,
+.searchClassForm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mainPanel,
+.sidePanel {
+  position: absolute;
+  top: 72px;
+  height: 952px;
+}
+.mainPanel {
+  width: calc(100% - 400px);
+  right: 360px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.sidePanel {
+  right: 40px;
+  width: 280px;
+}
+.content {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+}
+.studentSettings {
+  position: relative;
+  background-color: var(--color-whitesmoke-300);
+  width: 100%;
+  height: 1024px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--gray-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .sideBar {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sideBar {
+    display: none;
+  }
+}
